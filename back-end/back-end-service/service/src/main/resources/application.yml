@@ -1,0 +1,17 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 512MB
+      max-request-size: 512MB
+  rabbitmq:
+    host: 182.61.3.70
+    port: 5672
+    username: root
+    password: qwe123580.00
+    listener:
+      simple:
+        acknowledge-mode: manual
+
+file_hostPath:
+  D:\dev\soft-cup2\back-end\back-end-service\service\src\main\resources\sources_images\
